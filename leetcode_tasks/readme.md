@@ -4,3 +4,5 @@
 ---
 362. Design Hit Counter [hit_counter.go](hit_counter/hit_counter.go)
 ---
+159. Longest Substring with At Most Two Distinct Characters [longest_substring.go](longest_substring/longest_substring.go)
+---
