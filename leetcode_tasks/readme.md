@@ -9,3 +9,5 @@
 161. One Edit Distance [one_edit_distance](one_edit_distance/one_edit_distance.go)
 ---
 443. String Compression [string_compression](string_compression/string_compression.go)
+---
+253. Meeting Rooms II [meeting_rooms_2](meeting_rooms_2/meeting_rooms_2.go)
