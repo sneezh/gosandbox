@@ -11,3 +11,7 @@
 443. String Compression [string_compression](string_compression/string_compression.go)
 ---
 253. Meeting Rooms II [meeting_rooms_2](meeting_rooms_2/meeting_rooms_2.go)
+---
+88. Merge Soted Arrays [merge_sorted_arrays](merge_sorted_arrays/merge_sorted_arrays.go)
+---
+
