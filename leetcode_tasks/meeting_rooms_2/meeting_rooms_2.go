@@ -18,12 +18,12 @@ func minMeetingRooms(intervals [][]int) int {
 	}
 
 	sort.Slice(intervals, func(i, j int) bool {
-		return intervals[i][0] < intervals[j][0] || intervals[i][0] == intervals[j][0] && intervals[i][1] < intervals[j][1]
+		return intervals[i][0] < intervals[j][0]
 	})
 
 	h := &MinHeap{}
 	for _, interval := range intervals {
-		if h.Len() > 0 && h.Top().(int) <= interval[0] {
+		if h.Len() > 0 && h.Top() <= interval[0] {
 			heap.Pop(h)
 		}
 		heap.Push(h, interval[1])
@@ -46,7 +46,7 @@ func (h MinHeap) Swap(i, j int) {
 	h[i], h[j] = h[j], h[i]
 }
 
-func (h *MinHeap) Top() interface{} {
+func (h *MinHeap) Top() int {
 	return (*h)[0]
 }
 
